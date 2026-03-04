@@ -11,5 +11,9 @@ int main()
 
 	int num1 = dis(gen); // Generate first random number
 	int num2 = dis(gen); // Generate second random number
+
+	cout << "\nWelcome to the Math Tutor!:\n";
+	cout << "Solve the following problem:\n";
+	cout << num1 << "+" << num2 << "- ?" <<endl:
 	return 0;
 }
