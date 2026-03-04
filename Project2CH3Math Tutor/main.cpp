@@ -5,6 +5,6 @@ using namespace std;
 
 int main() 
 {
-
+	random_device rd;  // Seed for random number generator
 	return 0;
 }
