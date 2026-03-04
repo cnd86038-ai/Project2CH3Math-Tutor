@@ -14,6 +14,9 @@ int main()
 
 	cout << "\nWelcome to the Math Tutor!:\n";
 	cout << "Solve the following problem:\n";
-	cout << num1 << "+" << num2 << "- ?" <<endl:
+	cout << num1 << "+" << num2 << "= ?" <<endl:
+
+	cout << "Press Enter when you are ready to see the answer...";
+	cin.get();  // Wait for Enter key
 	return 0;
 }
