@@ -18,5 +18,9 @@ int main()
 
 	cout << "Press Enter when you are ready to see the answer...";
 	cin.get();  // Wait for Enter key
+
+	int answer = num1 + num2;
+	cout << "The correct answer is: " << answer << endl;
+
 	return 0;
 }
